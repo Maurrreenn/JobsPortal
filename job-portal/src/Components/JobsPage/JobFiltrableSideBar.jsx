@@ -42,7 +42,7 @@ const JobFiltrableSideBar = () => {
 
              <p className="sub-heading">Location</p>
              <select value={city} onChange={(e) => setCity(e.target.value)}   className='drop-down'>
-               <option value={""} disabled>Choose City</option>
+               <option value={""} disabled>📍 Choose City</option>
                <option>Enugu</option>
                <option>Abuja</option>
                <option>Lagos</option>
@@ -124,4 +124,4 @@ const JobFiltrableSideBar = () => {
   );
 };
 
-export default JobFiltrableSideBar
+export default JobFiltrableSideBar;
