@@ -1,0 +1,108 @@
+/* JobFiltrableSideBar.css */
+
+.side-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.side-bar {
+  width: 250px;
+  color: black;
+  background-color: #cef8dc;
+  margin-top: 20px;
+  margin-left: -10px;
+  padding-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.sub-heading {
+  font-weight: bold;
+  padding-top: 5px;
+  margin-left: 15px;
+}
+
+.search-input {
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.drop-down {
+  color: rgb(109, 103, 103);
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 85px;
+}
+
+.cat {
+  display: block;
+  cursor: pointer;
+  color: rgb(7, 6, 6);
+  margin-bottom: 10px;
+}
+
+.more-cat-button {
+  background-color: #46d375;
+  color: white;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  cursor: pointer;
+}
+
+.tick-box {
+  margin-left: 10px;
+  border: 1px grey solid;  
+}
+
+.salary-range {
+  margin-left: 10px;
+  width: 210px;
+}
+
+.salary-range::-webkit-slider-thumb  {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #46d375;
+  cursor: pointer;
+}
+
+.price-button {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pay {
+  font-weight: bold;
+}
+
+.apply {
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #46d375;
+  color: white;
+}
+
+.tags {
+  background-color: #cef8dc;
+  color: #16d666;
+  cursor: pointer;
+  margin-left: 10px;
+  border: 1px #4bfa94 solid;
+  border-radius: 5px;
+}

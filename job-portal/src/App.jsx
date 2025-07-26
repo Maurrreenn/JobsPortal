@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
+import Header from './Components/JobsPage/Header';
+import JobFiltrableSideBar from './Components/JobsPage/JobFiltrableSideBar';
 
 function App() {
-  
-
   return (
     <>  
-     <div className='my-app'>This is my Practice text</div>    
+     <Header />  
+     <JobFiltrableSideBar /> 
      </>
   )
 }

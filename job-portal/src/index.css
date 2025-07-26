@@ -6,7 +6,7 @@
   background-color: #fff;
 }
 
-a {
+/*a {
   font-weight: 500;
   color: #fff;
   text-decoration: inherit;
@@ -15,7 +15,7 @@ a {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: start;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -43,3 +43,4 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+  */
