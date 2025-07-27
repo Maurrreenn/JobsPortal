@@ -121,6 +121,13 @@ const JobList = () => {
                <button className="job-details-button">Job Details</button>
             </div>
           </div>
+               <div className="pagnation">
+                 <div className="page-container">
+                  <button className="page-number">1</button>
+                  <button className="page-number-two">2</button>
+                 </div>
+                  <button className="next-page">Next &gt;</button>
+               </div>
         </div>
       </div>
     </>

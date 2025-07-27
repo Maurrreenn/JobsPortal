@@ -41,6 +41,7 @@
 }
 
 .job-card {
+  width: 100%;
   padding-top: 20px;
   margin-bottom: 20px;
   margin-left: -5px;
@@ -108,4 +109,37 @@
   background-color: rgb(29, 212, 136);
   color: white;
   cursor: pointer;
+}
+
+.pagnation {
+  margin-bottom: 20px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-container {
+  margin-left: 210px;
+}
+
+.page-number {
+  margin-right: 12px;
+  border: 1px rgb(59, 207, 108) solid ;
+  background-color: rgb(59, 207, 108);
+  border-radius: 3px;
+  color: white;
+  padding: 4px 7px;
+}
+
+.page-number-two {
+  border: 2px rgb(117, 155, 130) solid;
+  padding: 3px 6px;
+  background-color: white;
+}
+
+.next-page {
+  border: 2px rgb(104, 141, 116) solid;
+  border-radius: 3px;
+  background-color: white;
+  padding: 3px 12px;
 }

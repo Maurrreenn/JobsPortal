@@ -7,7 +7,9 @@ const JobFiltrableSideBar = () => {
   const [selected, setSelected] = useState([]);
   const [salary, setSalary] = useState(0);
 
-  const categories = ["Full Time", "Part Time", "Freelance", "Seasonal", "Fixed Price"]
+  const jobTypes = ["Full Time", "Part Time", "Freelance", "Seasonal", "Fixed Price"]
+
+  const categories = ["Commerce", "Telecommunication", "Hotels & Tourism", "Education", "Financial Services"]
 
   const experienceLevels = ["No-experience", "Beginner", "Intermediate", "Expert"]
 
@@ -63,6 +65,19 @@ const JobFiltrableSideBar = () => {
                 onChange={handleChange}
               />
                 {cat}
+              </label>
+            ))}
+             <p className="sub-heading">Job Types</p>
+            {datePosted.map((job) => (
+              <label key={job} className='cat'>
+              <input 
+                className='tick-box'
+                type="checkbox"
+                value={job}
+                checked={selected.includes(job)}
+                onChange={handleChange}
+              />
+                {job}
               </label>
             ))}
             <button className='more-cat-button'>Show More</button>
