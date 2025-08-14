@@ -25,8 +25,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
   flex-wrap: wrap;
+  padding-right: -45px;
 }
 
 .logo-card {
@@ -36,7 +37,7 @@
   justify-content: center;
   background-color: white;
   text-align: center;
-  width: 200px;
+  width: 220px;
   height: 250px;
   border: none;
   border-radius: 5px;
@@ -66,3 +67,34 @@
   margin-top: 10px;
 }
   
+@media (max-width: 768px) {
+
+  .top-company-container {
+    position: relative;
+    width: 220px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .company-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.logo-card {
+  width: 200px;
+}
+
+.section-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tagline {
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}  
+}

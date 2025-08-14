@@ -8,7 +8,7 @@ const JobList = () => {
   return (
     <>
       <div className="main-container">
-        <div className="nav-container">
+        <div className="job-container-heading">
           <p className="search-result">Showing 6-6 of 10 results</p>
           <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}   className='sort-input'>
             <option value={""}>Sort by latest</option>
@@ -20,12 +20,14 @@ const JobList = () => {
         </div>
         <div className="job-offings-container">
           <div className="job-card">
-            <span className="post-time">10 min ago</span>
-            <div className="image-logo"> 
-                <img src="/logo.png" alt="logo" width={40} />
+            <span className="post-time">10 min ago </span>
+            <div className="profile-tab">
+              <img src="/logo.png" alt="logo" width={40} className="image-logo" />
+                <div className="info-tab">
+                 <h3 className="job-position">Forward Security Director</h3>
+                 <p className="company-info">Bauch, schuppe and schulist Co</p>
             </div>
-              <h3 className="job-position">Forward Security Director</h3>
-              <p className="company-info">Bauch, schuppe and schulist Co</p>
+            </div>
             <div className="job-info">
               <div className="position-nature">
                 <span className="specific-info">Hotels & Tourism</span>
@@ -41,8 +43,10 @@ const JobList = () => {
             <div className="image-logo">
              <img src="/vite.svg" alt="logo" width={30}/>
             </div>
+            <div className="info-tab">
              <h3 className="job-position">Regional Creative Facilitator</h3>
              <p className="company-info">Wisock-Becker Co</p>
+             </div>
             <div className="job-info">
             <div className="position-nature">
               <span className="specific-info">Media</span>
@@ -58,8 +62,10 @@ const JobList = () => {
             <div className="image-logo"> 
             <img src="/logo.png" alt="logo" width={40}/>
             </div>
+            <div className="info-tab">
              <h3 className="job-position">Internal Integration Planner</h3>
              <p className="company-info">Mraz, Quigley and Feast Inc </p>
+             </div>
             <div className="job-info">
               <div className="position-nature">
                 <span className="specific-info">Construction</span>
@@ -75,8 +81,10 @@ const JobList = () => {
              <div className="image-logo">
                <img src="/vite.svg" alt="logo" width={30}/>
              </div>
+             <div className="info-tab">
                <h3 className="job-position">Distric Intranet Director</h3>
                <p className="company-info">VonRuedon-Weber Co</p>
+               </div>
              <div className="job-info">
               <div className="position-nature">
                 <span className="specific-info">Commerce</span>
@@ -92,8 +100,10 @@ const JobList = () => {
             <div className="image-logo"> 
               <img src="/logo.png" alt="logo" width={40}/>
             </div>
+             <div className="info-tab">
              <h3 className="job-position">Corporate Tactics Facilitator</h3>
              <p className="company-info">Corrier, Turner and Fatley inc</p>
+             </div>
             <div className="job-info">
               <div className="position-nature">
                 <span className="specific-info">Commerce</span>
@@ -109,8 +119,10 @@ const JobList = () => {
              <div className="image-logo">
                <img src="/vite.svg" alt="logo" width={30}/>
              </div>
+             <div className="info-tab">
                <h3 className="job-position">Forward Accounts Consultants</h3>
                <p className="company-info">Miler Group</p>
+               </div>
             <div className="job-info">
                <div className="position-nature">
                  <span className="specific-info">Financial services</span>

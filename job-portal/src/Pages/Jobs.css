@@ -1,0 +1,39 @@
+/* Jobs.css */
+
+.layout-container {
+  display: flex;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+ /* .grid-layout {
+    display: flex;
+    flex-direction: column;
+  }
+    */
+
+  .layout-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .grid-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-layout {
+    margin-top: -40px;
+  }
+}
+
+
+
+/*#root {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+  */

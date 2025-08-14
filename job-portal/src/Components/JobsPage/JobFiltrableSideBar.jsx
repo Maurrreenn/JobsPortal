@@ -68,7 +68,7 @@ const JobFiltrableSideBar = () => {
               </label>
             ))}
              <p className="sub-heading">Job Types</p>
-            {datePosted.map((job) => (
+            {jobTypes.map((job) => (
               <label key={job} className='cat'>
               <input 
                 className='tick-box'
@@ -133,6 +133,9 @@ const JobFiltrableSideBar = () => {
            ))}
           </div>
         </aside>
+          <div className="hiring-card-flier">
+            <img src="/hiring.png" alt="Hiring Card" width={230} height={280} />
+         </div>
       </div>
     </>
     

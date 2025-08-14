@@ -1,0 +1,134 @@
+/* Header.css */
+.pagenav {
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 55px;
+  padding-right: 35px;
+  margin-left: -10px;
+  margin-right: -10px;
+  max-width: 1500px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo a {
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  cursor: default;
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(146, 146, 139);
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.nav-links a.active {
+  color: white;
+}
+
+.btn {
+  border: none;
+  background-color: black;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(133, 219, 159);
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.btn.active {
+  background-color: rgb(133, 219, 159);
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.page-name {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-left: -50px;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(121, 218, 142);
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+  .pagenav {
+    width: 180px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  
+
+  .nav-container {
+  display: flex;
+ }
+
+ .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -30px;
+ }
+
+ .nav-links {
+  display: none;
+  flex-direction: column;
+
+}
+
+.auth-button {
+   display: flex;
+   justify-content: end;
+   margin-right: -40px;
+}
+
+.menu-toggle {
+  display: block;
+  font-size: 14px;
+  width: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 2px;
+  margin-right: -20px;
+  margin-top: 25px;
+  color: white;
+  background-color: rgb(121, 218, 142);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+}

@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import './HiringCard.css';
 
 
@@ -12,3 +12,4 @@ const HiringCard = () => {
 
 
 export default HiringCard;
+*/

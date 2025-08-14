@@ -1,8 +1,8 @@
 /* JobFiltrableSideBar.css */
 
-.side-layout {
-  display: flex;
+.side-layout { 
   min-height: 100vh;
+  margin-left: 25px;
 }
 
 .side-bar {
@@ -14,6 +14,8 @@
   padding-bottom: 20px;
   border: none;
   border-radius: 10px;
+  padding-right: 15px;
+  padding-top: 10px;
 }
 
 .sub-heading {
@@ -110,4 +112,29 @@
   margin-left: 10px;
   border: 1px #4bfa94 solid;
   border-radius: 5px;
+}
+
+.hiring-card-flier {
+  margin-left: -10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .side-layout {
+    position: relative;
+  }
+
+  .side-bar {
+    width: 240px;
+    margin-left: -25px;
+  }
+
+  .pay {
+    margin-left: 2px;
+  }
+
+  .hiring-card-flier {
+    width: 200px;
+  }
 }

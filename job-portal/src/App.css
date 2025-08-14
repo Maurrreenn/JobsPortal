@@ -1,13 +1,13 @@
 /* App.css */
 
-.layout-container {
+/*.layout-container {
   display: flex;
   height: 100%;
 }
 
 
 
-/*#root {
+#root {
   width: 1280px;
   margin: 0 auto;
   padding: 2rem;

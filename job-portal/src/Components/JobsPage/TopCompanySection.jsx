@@ -20,7 +20,7 @@ const TopCompany = () => {
         <span className="available-job">18 open jobs</span>
         </div>
         <div className="logo-card">
-          <img src="/macdonalds.png" alt="mackdonald's" width={50} className="image-card" />
+          <img src="/McDonalds.png" alt="mackdonald's" width={50} className="image-card" />
           <h2 className="company-name">McDonald's</h2>
           <p className="company-discript">Instagram, owned by Meta, offers various job opportunities.</p>
           <span className="available-job">12 open jobs</span>

@@ -1,0 +1,10 @@
+/* Home.css*/
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(177, 253, 206);
+  color: black;
+  width: 100%;
+  height: 100vh;
+}

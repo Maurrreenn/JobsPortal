@@ -1,24 +1,28 @@
-import './App.css';
-import Footer from './Components/JobsPage/Footer';
-import Header from './Components/JobsPage/Header';
-import HiringCard from './Components/JobsPage/HiringCard';
-import JobFiltrableSideBar from './Components/JobsPage/JobFiltrableSideBar';
-import JobList from './Components/JobsPage/JobList';
-import TopCompany from './Components/JobsPage/TopCompanySection';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Layout from "./Components/Layout";
+import Home from "./Pages/Home";
+import Jobs from "./Pages/Jobs";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 
 function App() {
   return (
-    <>  
-     <Header />  
-     <div className='layout-container'>
-     <JobFiltrableSideBar /> 
-     <JobList />
-     </div>
-     <HiringCard />
-     <TopCompany />
-     <Footer />
-     </>
-  );
+    <Router>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/jobs" element={<Jobs />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Route>
+
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+        </Routes>
+    </Router>
+  )
 }
 
-export default App
+export default App;
