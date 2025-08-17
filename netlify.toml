@@ -1,5 +1,5 @@
 [build]
-  base = "JobsPortal"
+  base = "job-portal"
   command = "npm run build"
   publish = "dist"
 
