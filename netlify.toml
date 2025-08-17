@@ -1,7 +1,7 @@
 [build]
-  base = "job-portal"
+  base = "JobsPortal"
   command = "npm run build"
-  publish = "job-portal/dist"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
