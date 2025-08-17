@@ -84,10 +84,6 @@
 }
 
 @media (max-width: 768px) {
-  .footer-container {
-    width: 260px;
-  }
-
   .footer-content {
     display: flex;
     flex-direction: column;
@@ -95,9 +91,7 @@
     justify-content: center;
     text-align: center;
     margin-bottom: -10px;
-    width: 240px;
-
-
+    width: 100%;
 }
 
   .footer-subheading {
@@ -105,6 +99,7 @@
     font-size: 16px;
     padding-right: 25px;
     padding-bottom: 5px;
+    margin-top: -50px;
 }
 
   span {
@@ -115,9 +110,9 @@
   
   .ownership-right {
    font-size: 14px;
-   width: 240px;
+   width: 100%;
    align-content: center;
-   margin-left: -35px;
+   justify-content: center;
   }
 
   .copyright-info {
@@ -131,8 +126,9 @@
     display: flex;
     flex-direction: column;
     font-size: 12px;
-    margin-left: -30px;
     margin-top:-10px;
+    justify-content: center;
+    align-items: center;
   }
 
   .Newsletter-email-input {
@@ -145,5 +141,9 @@
     font-size: 12px;
     width: 220px;
     margin-left: -30px;
+  }
+
+  .job-footer-description {
+    margin-bottom: -50px;
   }
 }

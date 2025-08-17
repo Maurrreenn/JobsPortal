@@ -83,11 +83,10 @@
 }
 
 @media (max-width: 768px) {
-
   .pagenav {
-    width: 180px;
+    width:84%;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;  
   }
   
 
@@ -130,5 +129,4 @@
   border-radius: 5px;
   cursor: pointer;
 }
-
 }

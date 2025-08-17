@@ -8,7 +8,7 @@
 .side-bar {
   width: 230px;
   color: black;
-  background-color: rgb(215, 255, 235);
+  background-color: rgb(213, 253, 233);
   margin-top: 20px;
   margin-left: -10px;
   padding-bottom: 20px;
@@ -126,15 +126,47 @@
   }
 
   .side-bar {
-    width: 240px;
+    width: 100%;
     margin-left: -25px;
   }
 
   .pay {
     margin-left: 2px;
+    font-size: 16px;
   }
 
   .hiring-card-flier {
-    width: 200px;
+    width: 90%;
   }
+
+  .tags {
+  font-size: 18px;
+}
+
+.apply {
+  width: 100px;
+  height: 30px;
+}
+
+.salary-range {
+  margin-left: 10px;
+  width:95%;
+}
+ .more-cat-button {
+  width: 95%;
+ }
+
+ .search-input {
+  width: 90%;
+  font-size: 16px;
+ }
+
+ .sub-heading {
+  font-size: 17px;
+ }
+
+ .drop-down {
+  width: 93%;
+  font-size: 16px;
+ }
 }

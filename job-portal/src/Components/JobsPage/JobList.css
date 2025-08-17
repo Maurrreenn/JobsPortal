@@ -148,23 +148,22 @@
 
 @media (max-width: 768px) {
   .main-container {
-   width: 260px;
+   width: 100%;
    border:  rgb(238, 250, 245) solid;
    margin-bottom: 10px;
   }
   
   .job-container-heading {
-    width: 260px;
-    margin-top: -45px;
+    margin-top: -40px;
   }
 
   .search-result {
-    font-size: 11px;
+    font-size: 12px;
     margin-left: 5px;
   }
 
   .sort-input {
-    width: 90px;
+    width: 100px;
     margin-right: 20px;
   }
 
@@ -205,16 +204,11 @@
   .pagnation {
     display: flex;
     justify-content: space-between;
-    width: 280px;
   }
 
   .page-container {
     display: flex;
     justify-content: center;
     margin-left: -1px;
-  }
-
-  .next-page {
-    margin-right: 70px;
   }
 }

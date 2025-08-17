@@ -1,15 +1,17 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
+import { useState } from "react";
 
 const Layout = () => {
+  const [hideHeaderFooter, setHideHeaderfooter] = useState(false);
   return (
     <>
-      <Header />
+      {!hideHeaderFooter && <Header />}
       <main>
-      <Outlet />
+      <Outlet context={{hideHeaderFooter,   setHideHeaderfooter}} />
       </main>
-      <Footer />
+      {!hideHeaderFooter && <Footer />}
     </>
   );
 };

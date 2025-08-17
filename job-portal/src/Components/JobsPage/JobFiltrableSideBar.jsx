@@ -67,6 +67,7 @@ const JobFiltrableSideBar = () => {
                 {cat}
               </label>
             ))}
+             <button className='more-cat-button'>Show More</button>
              <p className="sub-heading">Job Types</p>
             {jobTypes.map((job) => (
               <label key={job} className='cat'>
@@ -80,7 +81,6 @@ const JobFiltrableSideBar = () => {
                 {job}
               </label>
             ))}
-            <button className='more-cat-button'>Show More</button>
             <p className="sub-heading">Experience Level</p>
             {experienceLevels.map((level) => (
               <label key={level} className='cat'>

@@ -71,7 +71,7 @@
 
   .top-company-container {
     position: relative;
-    width: 220px;
+    width: 92%;
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
@@ -83,10 +83,6 @@
     align-items: center; 
 }
 
-.logo-card {
-  width: 200px;
-}
-
 .section-heading {
   font-size: 20px;
   font-weight: 500;
@@ -96,5 +92,11 @@
   font-weight: 500;
   font-size: 12px;
   text-align: center;
-}  
+} 
+
+.available-job {
+  display: flex;
+  justify-content: center;
+  margin-left: 1px;
+}
 }
