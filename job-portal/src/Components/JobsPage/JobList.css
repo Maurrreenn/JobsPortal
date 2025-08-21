@@ -183,7 +183,7 @@
     flex-direction: column;
     width: 250px;
     align-items: start;
-    margin-left: 50px;
+    margin-left: 15px;
     margin-top: -20px;
     margin-bottom: 15px;
   }
@@ -194,7 +194,8 @@
   }
   
   .job-details-button {
-    margin-left: 25px;
+    margin-left: 35px;
+    width: 80%;
   }
 
   .job-info {
