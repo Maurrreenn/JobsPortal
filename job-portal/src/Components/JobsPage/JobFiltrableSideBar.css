@@ -21,8 +21,8 @@
 .sub-heading {
   font-weight: bold;
   margin-left: 15px;
-  font-size: 14px;
-  margin-bottom: 4px;
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 
 .search-input {
@@ -49,7 +49,7 @@
   display: block;
   cursor: pointer;
   color: rgb(7, 6, 6);
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 .more-cat-button {
@@ -112,13 +112,14 @@
   margin-left: 10px;
   border: 1px #4bfa94 solid;
   border-radius: 5px;
+  margin-bottom: 4px;
 }
 
-.hiring-card-flier {
+/*.hiring-card-flier {
   margin-left: -10px;
   margin-top: 10px;
   margin-bottom: 30px;
-}
+}*/
 
 @media (max-width: 768px) {
   .side-layout {
@@ -135,12 +136,13 @@
     font-size: 16px;
   }
 
-  .hiring-card-flier {
+ /* .hiring-card-flier {
     width: 90%;
-  }
+  }*/
 
   .tags {
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .apply {

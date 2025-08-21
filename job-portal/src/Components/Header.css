@@ -84,9 +84,10 @@
 
 @media (max-width: 768px) {
   .pagenav {
-    width:84%;
+    /*width: 83%; */
     padding-top: 30px;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    margin-top: -10px;
   }
   
 

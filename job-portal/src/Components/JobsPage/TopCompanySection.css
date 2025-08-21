@@ -71,7 +71,7 @@
 
   .top-company-container {
     position: relative;
-    width: 92%;
+    width: 91%;
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
@@ -98,5 +98,10 @@
   display: flex;
   justify-content: center;
   margin-left: 1px;
+}
+
+.logo-card {
+  width: 100%;
+  height: auto;
 }
 }

@@ -5,6 +5,7 @@ import JobList from '../Components/JobsPage/JobList';
 import TopCompany from '../Components/JobsPage/TopCompanySection';
 import { useState } from 'react';
 import {useOutletContext} from 'react-router-dom';
+import HiringCard from '../Components/JobsPage/HiringCard';
 
 
 const Jobs = () => {
@@ -24,12 +25,14 @@ const Jobs = () => {
          onClick={() => setShowFilter(!showFilter)}
         >{showFilter ? "Hide Filter" : "Show Filter"}</button>
 
-        
         <div className={`layout-container ${showFilter ? "open" : ""}`}>
            <div className='toggle-aside'>
               <JobFiltrableSideBar />
            </div>
-              <JobList />
+              <JobList />   
+        </div>
+         <div className={`section-layout ${showFilter ? "open" : ""}`}>
+            <HiringCard />
         </div>
         <div className={`section-layout ${showFilter ? "open" : ""}`}>
         <TopCompany />

@@ -1,16 +1,16 @@
 /* HiringCard.css */
 
-/*.hiring-card-flier {
-  margin-top: 10px;
+.hiring-card-flier {
+  margin-top: -380px;
   margin-left: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 @media  (max-width: 768px) {
   .hiring-card-flier {
     position: relative;
-    margin-bottom: 1px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 45px;
   }
 }
-  */
+  
