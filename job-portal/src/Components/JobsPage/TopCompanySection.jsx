@@ -5,12 +5,12 @@ const TopCompany = () => {
   return (
     <div className="top-company-container">
         <h2 className="section-heading">Top Company</h2>
-        <p className="tagline">We are here to connect you to every top companies of the world, simply the best for you</p>
+        <p className="tagline">We are here to connect you to every top companies of the world, simply the best for you </p>
       <div className="company-card">
         <div className="logo-card">
           <img src="/instagram.png" alt="instagram" width={50} className="image-card" />
           <h2 className="company-name">Instagram</h2>
-          <p className="company-discript">Instagram, owned by Meta, offers various job opportunities.</p>
+          <p className="company-discript">Instagram, owned by Meta, offers various job opportunities. </p>
           <span className="available-job">8 open jobs</span>
         </div>
         <div className="logo-card">
