@@ -155,7 +155,7 @@
 @media (max-width: 768px) {
   .main-container {
     margin-left: 25px;
-   width: 370px;
+   width: 100%;
    border:  rgb(253, 255, 254) solid;
    margin-bottom: 10px;
   }
