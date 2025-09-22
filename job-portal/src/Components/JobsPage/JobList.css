@@ -161,7 +161,8 @@
   
   .job-container-heading {
     margin-top: -30px;
-    width: 450px;
+    width: 100%;
+    display: flex;
   }
 
   .search-result {
@@ -170,9 +171,9 @@
   }
 
   .sort-input {
-    width: 100px;
+    width: 105px;
     font-size: 13px;
-    margin-right: -20px;
+    margin-right: -40px;
   }
 
   .profile-tab {
